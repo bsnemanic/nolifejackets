@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+    {% include header.html %}
+
+    <main>
+        <h1>{{ page.title }}</h1>
+        <section class="podcast-episodes">
+            <h2>Podcast Episodes</h2>
+            <ul>
+                {% for episode in site.data.podcasts %}
+                    <li>
+                        <a href="{{ episode.link }}" target="_blank">{{ episode.title }}</a>
+                        <p>{{ episode.description }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+
+    {% include footer.html %}
+</body>
+</html>

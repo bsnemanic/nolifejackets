@@ -1,0 +1,17 @@
+<footer>
+  <div class="footer-content">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" target="_blank">YouTube</a></li>
+      <li><a href="https://open.spotify.com/show/YOUR_SHOW_ID" target="_blank">Spotify</a></li>
+    </ul>
+  </div>
+  <div class="footer-blog">
+    <p>Check out our latest blog posts:</p>
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+title: Episode 1
+link_youtube: https://www.youtube.com/watch?v=example1
+link_spotify: https://open.spotify.com/episode/example1
+description: This is the first episode of our podcast where we discuss various topics.
+
+- title: Episode 2
+  link_youtube: https://www.youtube.com/watch?v=example2
+  link_spotify: https://open.spotify.com/episode/example2
+  description: In this episode, we dive into the details of our journey.
+
+- title: Episode 3
+  link_youtube: https://www.youtube.com/watch?v=example3
+  link_spotify: https://open.spotify.com/episode/example3
+  description: Join us as we explore new ideas and concepts in this episode.

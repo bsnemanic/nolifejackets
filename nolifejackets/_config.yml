@@ -1,0 +1,31 @@
+title: No Life Jackets
+description: A simple website to showcase podcast episodes and share blog posts.
+url: https://nolifejackets.com
+baseurl: ""
+author:
+  name: Your Name
+  email: your.email@example.com
+social:
+  twitter: your_twitter_handle
+  facebook: your_facebook_page
+  instagram: your_instagram_handle
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - .gitignore
+  - _data
+  - _layouts
+  - _includes
+  - assets
+  - _posts
+  - podcast
+  - index.md
+  - about.md
