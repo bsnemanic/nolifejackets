@@ -27,5 +27,4 @@ exclude:
   - assets
   - _posts
   - podcast
-  - index.md
   - about.md
